@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+button {
+    padding: 5px 10px;
+    margin: 2px;
+    cursor: pointer;
+    border: none;
+}
+
+.complete {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.add-btn {
+    background-color: green;
+    color: white;
+}
+
+.update-btn {
+    background-color: orange;
+    color: white;
+}
+
+.delete-btn {
+    background-color: red;
+    color: white;
+}
+
+.toggle-btn {
+    background-color: blue;
+    color: white;
+}

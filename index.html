@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Management System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h2>Task Management System</h2>
+    <input type="text" id="taskName" placeholder="Task Name">
+    <input type="text" id="taskStatus" placeholder="Status">
+    <button class="add-btn" onclick="addTask()">Add Task</button>
+    
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody id="taskTable"></tbody>
+    </table>
+
+    <script src="script.js"></script>
+</body>
+</html>
