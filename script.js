@@ -58,5 +58,4 @@ function toggleComplete(id) {
         renderTasks();
     }
 }
-
 renderTasks();
